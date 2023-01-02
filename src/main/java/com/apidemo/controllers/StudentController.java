@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(path = "/api/v1/Students")
+@RequestMapping(path = "/api/v1/students")
 public class StudentController {
     //DI = Dependency Injection
     @Autowired
